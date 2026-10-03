@@ -1,0 +1,5 @@
+# An item counts as a drill if its name or any lore line contains one of these (case-insensitive, colors ignored).
+# Lore survives anvil renames, so prefer matching on lore.
+name-contains: []
+lore-contains:
+  - "blocks at once"

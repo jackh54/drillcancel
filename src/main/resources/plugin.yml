@@ -1,0 +1,8 @@
+name: DrillCancel
+version: ${project.version}
+main: com.github.jackh54.drillcancel.DrillCancel
+api-version: '1.21'
+folia-supported: true
+description: Stops MythicTools drills from mining spawners.
+# Enable before MythicTools so our LOWEST listener runs ahead of its own.
+loadbefore: [MythicTools]
